@@ -1,0 +1,19 @@
+abour_with_cost = {"mahesh:":500,"ramesh:":400,"atul:":300,"om:":200,"jagmohan":1000,"rampyare":800}
+
+# get method
+# print(labour_with_cost.get("mahesh"))
+
+# #error
+# print(labour_with_cost["mahesh"])
+
+#key and value
+# print(labour_with_cost.keys())
+# print(labour_with_cost.values())
+
+#items method
+# print(labour_with_cost.items())
+
+#update method
+labour_with_cost.update({"manish":900})
+print(labour_with_cost)
+
